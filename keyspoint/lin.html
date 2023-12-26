@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Anonymous';
+            background-color: #d3f3f1;
+            margin: 0;
+            padding: 20px;
+            text-align:center;
+            font-size: 20px;
+        }
+        button{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .shortcut-container {
+            margin-top: 20px;
+        }
+
+        .shortcut {
+            display:inline-block;
+            text-align: center;
+            margin: 10px;
+            cursor: pointer;
+            position: relative;
+            padding: 8px 12px;
+            border: 1px solid #3445db;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .description {
+            text-shadow: #e91e1e;
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #0f1880;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            width: 300px;
+            text-align:right;
+        }
+
+        .shortcut:hover {
+            background-color: #0d3b66;
+            color: #fff;
+        }
+
+        .shortcut:hover .description {
+            display:contents;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+    <title>Linux Shortcut Keys</title>
+</head>
+<body>
+    <a href="11.html">
+        <button>HOME</button>
+    </a>
+    <h1>Linux Shortcut Keys</h1>
+        <div class="shortcut">
+            Ctrl + Alt + Backspace
+            <div class="description">
+                Restart X Server: This combination can be used to restart the X server, effectively restarting the graphical interface.
+            </div>
+        </div>
+            <br>
+        <div class="shortcut">
+            Alt + SysRq + R E I S U B
+            <div class="description">
+                Safe System Reboot: This sequence is used to safely reboot the system even if it's unresponsive. Each letter stands for a specific action:<br>
+                R: Switch the keyboard mode<br>
+                E: Send the Terminate signal to all processes except for init<br>
+                I: Send the Kill signal to all processes except for init<br>
+                S: Sync all mounted filesystems<br>
+                U: Remount all mounted filesystems as read-only<br>
+                B: Immediately reboot the system
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Ctrl + Alt + F1 to F6
+            <div class="description">
+                Switch Between Virtual Terminals: You can use these key combinations to access different terminal sessions.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Ctrl + Alt + Arrow Keys
+            <div class="description">
+                On some systems, this can be used to switch between workspaces or virtual desktops.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Alt + F2
+            <div class="description">
+                Opens a "Run Application" dialog where you can quickly launch a command or application.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Alt + F7
+            <div class="description">
+                Used to switch back to the graphical user interface (GUI) from a virtual terminal.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Ctrl + Alt + L
+            <div class="description">
+                Locks the screen and requires a password to unlock. Useful for securing your desktop when you're away.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Alt + PrtScn
+            <div class="description">
+                Capture the currently focused window.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Ctrl + Alt + Tilde (~)
+            <div class="description">
+                Switch between windows of the same application in the GNOME desktop environment.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Ctrl + Alt + Plus/Minus
+            <div class="description">
+                Change screen resolution in some Linux distributions.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Ctrl + Alt + Shift + Arrow Keys
+            <div class="description">
+                Move the current window to a different monitor in a multi-monitor setup.
+            </div>
+        </div>
+        <!-- End of additional shortcuts -->
+
+    </div>
+
+    <script>
+        // You can use JavaScript to dynamically generate the content if needed
+    </script>
+
+</body>
+</html>

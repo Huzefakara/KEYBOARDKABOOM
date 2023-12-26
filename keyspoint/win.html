@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            
+            font-family:'Anonymous';
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            text-align:center;
+            font-size: 20px;
+        }
+        button{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .shortcut-container {
+            margin-top: 20px;
+        }
+
+        .shortcut {
+            display:inline-block;
+            text-align: center;
+            margin: 10px;
+            cursor: pointer;
+            position: relative;
+            padding: 8px 12px;
+            border: 1px solid #3445db;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .description {
+            text-shadow: #e91e1e;
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #0f1880;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            width: 300px;
+            text-align:right;
+            
+        }
+
+        .shortcut:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .shortcut:hover .description {
+            display:contents;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+    <title>Windows Shortcut Keys</title>
+</head>
+<body>
+    <a href="11.html">
+        <button>HOME</button>
+    </a>
+    <h1>Windows Shortcut Keys</h1>
+        <div class="shortcut">
+            Win + Pause/Break
+            <div class="description">
+                 :Opens the System Properties window.
+            </div>
+        </div>
+            <br>
+        <div class="shortcut">
+            Win + . (period) or Win + ; (semicolon)
+            <div class="description">
+                 :Opens the emoji picker.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Win + Shift + S
+            <div class="description">
+                 :Opens the Snipping Tool to capture a specific area of the screen.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Ctrl + Shift + Esc
+            <div class="description">
+                 :Opens Task Manager directly.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Win + Ctrl + D
+            <div class="description">
+                 :Creates a new virtual desktop.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Win + Ctrl + F4
+            <div class="description">
+                 :Closes the current virtual desktop.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Win + , (comma)
+            <div class="description">
+                 :Peeks at the desktop (temporarily hides open windows).
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Win + Alt + D
+            <div class="description">
+                 :Shows or hides the date and time on the desktop.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Ctrl + Win + Tab
+            <div class="description">
+                 :Activates Task View, allowing you to switch between open windows and virtual desktops.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Shift + Right-Click on a Taskbar item
+            <div class="description">
+                 :Opens a new instance of the program.
+            </div>
+        </div><br>
+
+        <div class="shortcut">
+            Ctrl+Shift+left mouse click
+            <div class="description">
+                 :Starts the selected app as an administrator.
+            </div>
+        </div>
+        <!-- End of additional shortcuts -->
+
+    </div>
+
+    <script>
+        // You can use JavaScript to dynamically generate the content if needed
+    </script>
+
+</body>
+</html>
